@@ -1,0 +1,46 @@
+html,
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: url(lapto.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+h1 {
+    font-size: 3rem;
+   color: whitesmoke;
+   background-color: transparent;
+}
+hr{
+    border-color: orange;
+    justify-self: center;
+    width: 90px;
+    border-width: 3px;
+}
+.btn-primary
+{
+   padding: 0.5rem 3rem;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 300px;
+    background-color: chocolate;
+    border-color: whitesmoke;
+}
+.btn-primary:hover{
+    background-color: maroon;
+    border-color: whitesmoke;
+    border-width: 2px;
+}
+.btn-primary:focus
+{
+    background-color: chocolate;
+    border-color: whitesmoke;
+    border:2px;
+}
+.buffer
+{
+    height: 10rem;
+}
